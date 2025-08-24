@@ -1,0 +1,24 @@
+{
+  "name": "covax-alert-express",
+  "version": "1.0.0",
+  "description": "Alerts for vaccination slots",
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "author": "sharath manchikatla",
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "dotenv": "^8.2.0",
+    "node-cron": "^3.0.0",
+    "request": "^2.88.2",
+    "mongoose": "^5.12.5",
+    "node-telegram-bot-api": "^0.53.0",
+    "nodemon": "^2.0.7"
+  }
+}
